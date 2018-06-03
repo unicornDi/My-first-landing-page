@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+header {
+    background-color: rgb(240, 242, 244);
+}
+.contact-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 100%;
+}
+.phone-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 7%;
+    padding-right: 5px;
+}
+.e-mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 189px;
+    padding-left: 8px;
+    border-left: 1px solid gray;
+    flex-basis: 15%;
+}
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    padding-left: 80px;
+    height: 115px;
+}
+.navigation-container-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+    justify-content: center;
+}
+.contact-info {
+    background-color: rgb(240, 242, 244);
+}
+.hat-logo {
+    margin-left: 189px;
+    margin-top: 10px;
+    width: 470px;
+}
+.business {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial,sans-serif; 
+    font-size: 37px;
+    font-weight: bold;
+}
+.tagline {
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding-left: 180px;
+    padding-top: 50px;   
+    align-items: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+}
+.free-consultation-button {
+    text-decoration: none;
+    background-color: rgb(226, 17, 17);
+    color: white;
+    border-radius: 3px;
+    padding: .8em 1em calc(.8em + 3px);
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.consultation {
+    display: flex;
+    background-image: url(./images/background.png);
+    height: 590px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.consultation-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.consultation-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: rgb(248, 205, 83);
+    left: 536px;
+    top: 458px;
+    width: 330px;
+    height: 69px;
+    z-index: 22; 
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    height: 544px;
+    background-color: white;
+    
+}
+.about-us-headers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-us-images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.facebook-marketing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.landing-pages-creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ads-management {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+.our-approach {
+    display: flex;
+    flex-direction: column;
+    height: 1408px;
+    background-color: rgb(243, 243, 243);
+    align-items: center;
+}
+.our-approach-header {
+    color: rgb(66, 66, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+}
+.our-approach-section-one {
+    display: flex;
+    flex-direction: row;
+    height: 237px;
+}
+.our-approach-step-one-box {
+    display: flex;
+    border: solid 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgb(222, 43, 36);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 105px;
+    height: 105px;
+    margin-top: 65px;
+    margin-left: -55px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.our-approach-step-one-text {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-left: -54px;
+    padding-left: 100px;
+    /* padding-right: 69px;  */
+    align-items: center;
+    justify-content: center;
+    /* min-width: 500px; */
+    /* width: 685px; */
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 685; */
+}
+
+.our-work {
+    height: 866px;
+    background-color: palegreen;
+}
+
+.facebook {
+    height: 850px;
+    background-color: lightgray;
+}
+footer {
+    height: 556px;
+    background-color: lightcoral;
+}
+
+  
