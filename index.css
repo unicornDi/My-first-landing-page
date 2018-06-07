@@ -154,63 +154,7 @@ nav {
     align-items: center;
     text-align: center;
 }
-.our-approach {
-    display: flex;
-    flex-direction: column;
-    height: 1408px;
-    background-color: rgb(243, 243, 243);
-    align-items: center;
-}
-.our-approach-header {
-    color: rgb(66, 66, 66);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 90px;
-}
-.our-approach-section-one {
-    display: flex;
-    flex-direction: row;
-    height: 237px;
-}
-.our-approach-step-one-box {
-    display: flex;
-    border: solid 2px;
-    border-color: rgb(255, 255, 255);
-    border-radius: 3px;
-    background-color: rgb(222, 43, 36);
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 105px;
-    height: 105px;
-    margin-top: 65px;
-    margin-left: -55px;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-.our-approach-step-one-text {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    margin-left: -54px;
-    padding-left: 100px;
-    /* padding-right: 69px;  */
-    align-items: center;
-    justify-content: center;
-    /* min-width: 500px; */
-    /* width: 685px; */
-    /* flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 685; */
-}
 
-.our-work {
-    height: 866px;
-    background-color: palegreen;
-}
-
-.facebook {
-    height: 850px;
-    background-color: lightgray;
-}
 footer {
     height: 556px;
     background-color: lightcoral;

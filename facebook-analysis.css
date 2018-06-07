@@ -1,0 +1,20 @@
+.facebook-analysis {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 135, 191);
+    height: 850px;
+}
+.fb-analysis-header {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.facebook-analysis p {
+    text-align: center;
+    color: white;
+}
+
+.facebook-analysis i {
+    color: white;
+    text-align: center;
+}
