@@ -1,0 +1,41 @@
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    height: 500px;
+}
+.get-in-touch h2 {
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+.get-in-touch-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.get-in-touch-icons-inner {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    justify-content: space-evenly;
+}
+.text {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.email-form-style {
+    margin:0 auto;
+    margin-top: 33px;
+    max-width: 680px;
+}
+.email-form-style input {
+    width: 680px;
+    height: 30px;; 
+    background: rgb(81, 81, 81);
+    border: none;
+    padding:10px;
+    color: rgb(175, 175, 175);
+    font: 95% Arial, Helvetica, sans-serif;
+}
