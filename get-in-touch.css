@@ -20,6 +20,9 @@
     flex-basis: 300px;
     justify-content: space-evenly;
 }
+.get-in-touch i:hover {
+    color: red;
+}
 .text {
     text-align: center;
     margin-top: 40px;

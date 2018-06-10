@@ -6,23 +6,34 @@ body {
     flex-direction: column;
     flex-basis: 100%;
 }
-header {
+/* header {
     background-color: rgb(240, 242, 244);
+    flex-basis: 100%;
 }
 .contact-info-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    flex-basis: 100%;
+    /* align-items: center; */
+    height: 43px;
+}
+.phone-number-main-continer {
+    display: flex;
+    /* flex-basis: 80%; */
+    /* flex-grow: 0;
+    flex-shrink: 0; */
 }
 .phone-number {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-basis: 7%;
-    padding-right: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    /* flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0; */
 }
-.e-mail {
+.e-mail-main-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,6 +41,11 @@ header {
     padding-left: 8px;
     border-left: 1px solid gray;
     flex-basis: 15%;
+}
+.e-mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .navigation-container {
     display: flex;
@@ -116,7 +132,7 @@ nav {
     width: 330px;
     height: 69px;
     z-index: 22; 
-}
+} */
 .about-us {
     display: flex;
     flex-direction: column;
