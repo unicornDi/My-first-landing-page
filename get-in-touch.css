@@ -14,12 +14,13 @@
     flex-direction: row;
     justify-content: center;
 }
-.get-in-touch-icons-inner {
+.icons {
     display: flex;
     flex-direction: row;
     flex-basis: 300px;
     justify-content: space-evenly;
 }
+.icons a:hover {color: red;}
 .text {
     text-align: center;
     margin-top: 40px;
