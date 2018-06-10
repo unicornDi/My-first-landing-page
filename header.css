@@ -37,6 +37,18 @@ header {
     align-items: center;
     height: 130px;
 }
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+}
+nav a:visited {
+    color:black;
+}
+nav a:active {
+    color: black;
+}
 .logo {
     display: flex;
     flex-basis: 400px;
