@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: column;
+    height: 173px;
+}
+.contact-info-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 242, 244);
+    height: 43px;
+    justify-content: flex-end;
+}
+.phone-number-flex-container {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: flex-end;
+}
+.e-mail-flex-container {
+    display: flex;
+    flex-basis: 30%;
+}
+.phone-number {
+    display: flex;
+    flex-basis: 110px;
+    justify-content: space-around;
+    align-items: center;   
+}
+.e-mail {
+    display: flex;
+    border-left: 1px solid rgb(226, 226, 226);
+    flex-basis: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigation-container {
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+.logo {
+    display: flex;
+    flex-basis: 400px;
+    justify-content: flex-end;
+}
+.business {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+    line-height: 0;
+}
