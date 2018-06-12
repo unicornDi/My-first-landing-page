@@ -5,7 +5,108 @@ body {
 .main-container {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     flex-basis: 100%;  
+=======
+    flex-basis: 100%;
+}
+/* header {
+    background-color: rgb(240, 242, 244);
+    flex-basis: 100%;
+}
+.contact-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: center; */
+    height: 43px;
+}
+.phone-number-main-continer {
+    display: flex;
+    /* flex-basis: 80%; */
+    /* flex-grow: 0;
+    flex-shrink: 0; */
+}
+.phone-number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    /* flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0; */
+}
+.e-mail-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 189px;
+    padding-left: 8px;
+    border-left: 1px solid gray;
+    flex-basis: 15%;
+}
+.e-mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-basis: 100%;
+    justify-content: flex-start;
+    padding-left: 80px;
+    height: 115px;
+}
+.navigation-container-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+    justify-content: center;
+}
+.contact-info {
+    background-color: rgb(240, 242, 244);
+}
+.hat-logo {
+    margin-left: 189px;
+    margin-top: 10px;
+    width: 470px;
+}
+.business {
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial,sans-serif; 
+    font-size: 37px;
+    font-weight: bold;
+}
+.tagline {
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    padding-left: 180px;
+    padding-top: 50px;   
+    align-items: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+}
+.free-consultation-button {
+    text-decoration: none;
+    background-color: rgb(226, 17, 17);
+    color: white;
+    border-radius: 3px;
+    padding: .8em 1em calc(.8em + 3px);
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+>>>>>>> master
 }
 
 .consultation {
@@ -36,7 +137,7 @@ body {
     width: 330px;
     height: 69px;
     z-index: 22; 
-}
+} */
 .about-us {
     display: flex;
     flex-direction: column;
