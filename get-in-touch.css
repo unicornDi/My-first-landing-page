@@ -14,15 +14,19 @@
     flex-direction: row;
     justify-content: center;
 }
-.get-in-touch-icons-inner {
+.icons {
     display: flex;
     flex-direction: row;
     flex-basis: 300px;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
+.icons a:hover {color: red;}
+=======
 .get-in-touch i:hover {
     color: red;
 }
+>>>>>>> master
 .text {
     text-align: center;
     margin-top: 40px;

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="free-consultation.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="our-approach.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="our-work.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="facebook-analysis.css" />
@@ -18,38 +19,43 @@
 <body>
     <div class="main-container">
         <header>
-            <div class= "contact-info-container">
-                <div class="phone-number-main-container">
+            <div class="contact-info-container">
+                <div class="phone-number-flex-container">
                     <div class="phone-number">
                         <img src="./images/phone.svg">
                         <p>6337 3128</p>
                     </div>
                 </div>
-                <div class="e-mail-main-container">
-                    <div class="e-mail">
-                        <img src="./images/mail.svg">
-                        <p>info@business.co</p>
-                        <a href="https://facebook.com" target="_blank"><img src="./images/facebook-icon.svg"></a>
-                    </div> 
+                    <div class="e-mail-flex-container">
+                        <div class="e-mail">
+                            <img src="./images/mail.svg">
+                            <p>info@business.co</p>
+                            <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-icon.svg"></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
             <div class="navigation-container">
-                <img src="./images/hat.svg">
-           <div class="navigation-container-text">
-                <div class="business">
-                    Business
-                </div></br>
-                <div class="tagline">
-                    Tagline goes here
+                <div class="logo">
+                    <img src="./images/hat.svg">
+                    <div class="business">
+                        <h1>Business</h1>
+                        <p>Tagline goes here</p>
+                    </div>
                 </div>
-            </div>
             <nav>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Our Approach</li>
-                <li>Our Work</li>
-                <a href="#" class="free-consultation-button">Free Consultation</a>
+                <div class="navigation">
+                    <a href="index.html"><p>Home</p></a>
+                    <p>&#9899</p> 
+                    <a href="#about-us"><p>About Us</p></a>
+                    <p>&#9899</p>
+                    <a href="#our-approach"><p>Our Approach</p></a>
+                    <p>&#9899</p>
+                    <a href="#our-work"><p>Our Work</p></a>
+                </div>
             </nav>
+            <div class="free-consultation-button-container">
+                    <button>Free Consultation</button>
+            </div>
             </div>
         </header>          
         <section class="consultation main-section">
@@ -58,7 +64,7 @@
             <a href="#" class="consultation-button">FREE CONSULTATION</a>
         </section>
         
-        <section class="about-us main-section">
+        <section class="about-us main-section" id="about-us">
            <div class="about-us-headers">
                <h1>About Us</h1>
                 <h4>We are added our major services</h4>
@@ -84,13 +90,14 @@
                 </div>
             </div>
         </section>
-        <section class="our-approach main-section">
+        <section class="our-approach main-section" id="our-approach">
             <h1 class="our-approach-header">Our Approach</h1>
             <p>Check Our approaches step by step</p>
             <div class="our-approach-sections">
                 <img src="./images/camera.png">
                 <div class="our-approach-step-box">  
-                    1 step      
+                    1</br>
+                    step      
                 </div>
                 <div class="our-approach-step-text">
                     <div> 
@@ -104,7 +111,8 @@
             <div class="our-approach-sections reverse-section">
             <img src="./images/road.png">
             <div class="our-approach-step-box-reverse reverse-section">
-                2 step
+                2</br> 
+                step
             </div>
             <div class="our-approach-step-text-reverse">
                     <div> 
@@ -118,7 +126,8 @@
             <div class="our-approach-sections third-step">
                 <img src="./images/cafe.png">
                 <div class="our-approach-step-box">  
-                    3 step      
+                    3</br>
+                    step      
                 </div>
                 <div class="our-approach-step-text">
                     <div> 
@@ -132,7 +141,8 @@
             <div class="our-approach-sections reverse-section">
                 <img src="./images/table.png">
                 <div class="our-approach-step-box-reverse reverse-section">
-                    4 step
+                    4</br>
+                    step
                 </div>
                 <div class="our-approach-step-text-reverse">
                         <div> 
@@ -144,48 +154,49 @@
                 </div>
                 </div>
         </section>
-        <section class="our-work main-section">
-            <div our-work-head>
+        <section class="our-work main-section" id="our-work">
+            <div class="our-work-head">
                 <h1 class="our-work-head">Our Work</h1>
                 <p>We are added our featured works below</p>
             </div>
             <div class="our-work-gallery">
-                <div class="first-row">
-                        <div class="projects">
+                
+                    <div class="projects" id="our-work-gallery__first-rect">
                         <i class="far fa-paper-plane"></i>
                         Project Name</br>
                         Facebook Marketing
                     </div>
-                    <div class="our-work-images">
+                    <div class="our-work-images" id="our-work-gallery__second-rect">
                         <img src="./images/small-camera.png">
                     </div>
-                    <div class="projects">
+
+                    <div class="projects" id="our-work-gallery__third-rect">
                         <i class="far fa-paper-plane"></i>
                         Project Name</br>
                         Landing Page
                     </div>
-                    <div class="our-work-images">
+                    <div class="our-work-images" id="our-work-gallery__fourth-rect">
                         <img src="./images/tree.png">
                     </div>
-                </div>
-                <div class="second-row">
-                    <div class="our-work-images">
+            
+                    <div class="our-work-images" id="our-work-gallery__fifth-rect">
                         <img src="./images/river.png">
                     </div>
-                    <div class="projects">
-                            <i class="far fa-paper-plane"></i>
-                            Project Name</br>
-                            Landing Page
+                    <div class="projects" id="our-work-gallery__sixth-rect">
+                        <i class="far fa-paper-plane"></i>
+                        Project Name</br>
+                        Landing Page
                     </div>
-                    <div class="our-work-images">
+                   
+                    <div class="our-work-images" id="our-work-gallery__seventh-rect">
                         <img src="./images/wood.png">
                     </div>
-                    <div class="projects">
-                            <i class="far fa-paper-plane"></i>
-                            Project Name</br>
-                            Facebook Marketing
+                    <div class="projects" id="our-work-gallery__eighth-rect">
+                        <i class="far fa-paper-plane"></i>
+                        Project Name</br>
+                        Facebook Marketing
                     </div>
-                </div>
+                     
             </div>
         </section>
         <section class="facebook-analysis main-section">
@@ -204,11 +215,11 @@
         <section class="get-in-touch main-section">
            <h2>Get In Touch</h2>
             <div class="get-in-touch-icons">
-               <div class="get-in-touch-icons-inner">
+               <div class="icons">
                 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
                 <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
                 <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-square fa-3x"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank" ><i class="fab fa-linkedin fa-3x"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
                 </div>
             </div>
             <div class="text">

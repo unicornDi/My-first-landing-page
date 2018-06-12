@@ -30,6 +30,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    text-align: center;
 }
 .our-approach-step-text {
     display: flex;
@@ -57,6 +58,7 @@
     margin-right: -55px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     z-index: 1;
 }
 .our-approach-step-text-reverse {
