@@ -20,13 +20,7 @@
     flex-basis: 300px;
     justify-content: space-evenly;
 }
-<<<<<<< HEAD
 .icons a:hover {color: red;}
-=======
-.get-in-touch i:hover {
-    color: red;
-}
->>>>>>> master
 .text {
     text-align: center;
     margin-top: 40px;

@@ -25,6 +25,9 @@
     width: 330px;
     height: 69px;
 }
+.consultation-button:hover {
+    background-color: rgb(243, 209, 115);
+}
 .about-us {
     display: flex;
     flex-direction: column;
