@@ -1,0 +1,11 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ 
+.white-font {
+    color: white;
+}
+
+.bold-font {
+    font-weight: bold;
+}

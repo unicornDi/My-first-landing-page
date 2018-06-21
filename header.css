@@ -59,7 +59,6 @@ nav a:active {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    align-items: center;
     line-height: 0;
 }
 nav {
@@ -69,8 +68,12 @@ nav {
 }
 .navigation {
  display: flex;
- justify-content: space-evenly;
+ justify-content: space-around;
  flex-basis: 500px;
+ align-items: center;
+}
+.dot {
+    margin-bottom: 3px;
 }
 .free-consultation-button-container {
     display: flex;
@@ -86,7 +89,6 @@ nav {
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    color: white;
     border: 1px solid rgb(222, 43, 36);
 }
 .free-consultation-button-container button:hover {
