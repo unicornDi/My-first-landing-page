@@ -9,3 +9,6 @@ body {
 .bold-font {
     font-weight: bold;
 }
+nav a:hover {
+    color: red;
+}
