@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Business</title>
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Internet-marketing and advertise agency: Landing Page creation, context advertising, SEO-analysis, efficient email-marketing.">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="free-consultation.css" />
@@ -47,13 +49,14 @@
                 </div>
             <nav>
                 <div class="navigation bold-font">
-                    <a href="index.html"><p>Home</p></a>
-                    <div class="dot">&#9899</div> 
-                    <a href="#about-us"><p>About Us</p></a>
-                    <div class="dot">&#9899</div>
-                    <a href="#our-approach"><p>Our Approach</p></a>
-                    <div class="dot">&#9899</div>
-                    <a href="#our-work"><p>Our Work</p></a>
+                   <div class="nav-first-row">
+                    <a id="first-nav-link" href="index.html"><p>Home</p></a>
+                    <a id="second-nav-link" href="#about-us"><p>About Us</p></a>
+                   </div> 
+                   <div class="nav-second-row">
+                    <a id="third-nav-link" href="#our-approach"><p>Our Approach</p></a>
+                    <a id="fourth-nav-link" href="#our-work"><p>Our Work</p></a>
+                    </div>
                 </div>
             </nav>
             <div class="free-consultation-button-container">
@@ -62,8 +65,8 @@
             </div>
         </header>          
         <section class="consultation main-section white-font">
-            <h1 class="consultation-text">We Providing</h1></br>
-            <span class="consultation-text" >Social Media marketing for business</span>
+            <p class="consultation-text-first-row">We Providing</p></br>
+            <span class="consultation-text-sec-row" >Social Media marketing for business</span>
             <a href="#" class="consultation-button white-font bold-font">FREE CONSULTATION</a>
         </section>
         
@@ -101,12 +104,12 @@
             <div class="our-approach-sections">
                 <img src="./images/camera.png">
                 <div class="our-approach-step-box white-font">  
-                    1</br>
-                    step      
+                    <p class="anton-font">1</br>
+                    step</p>      
                 </div>
                 <div class="our-approach-step-text">
                     <div> 
-                        Step 1: Heading Here</br>
+                        <h4>Step 1: Heading Here</h4></br>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</br> 
                         Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.</br>
                         Donec quis nibh at felis congue commodo. Curabitur bibendum justo non orci.</br>
@@ -116,12 +119,12 @@
             <div class="our-approach-sections reverse-section">
             <img src="./images/road.png">
             <div class="our-approach-step-box-reverse reverse-section white-font">
-                2</br> 
-                step
+                <p class="anton-font">2</br> 
+                step</p>
             </div>
             <div class="our-approach-step-text-reverse">
                     <div> 
-                        Step 2: Heading Here</br>
+                        <h4>Step 2: Heading Here</h4></br>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</br> 
                         Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.</br>
                         Donec quis nibh at felis congue commodo. Curabitur bibendum justo non orci.</br>
@@ -131,12 +134,12 @@
             <div class="our-approach-sections third-step">
                 <img src="./images/cafe.png">
                 <div class="our-approach-step-box white-font">  
-                    3</br>
-                    step      
+                    <p class="anton-font">3</br>
+                    step</p>    
                 </div>
                 <div class="our-approach-step-text">
                     <div> 
-                        Step 3: Heading Here</br>
+                        <h4>Step 3: Heading Here</h4></br>
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</br> 
                         Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.</br>
                         Donec quis nibh at felis congue commodo. Curabitur bibendum justo non orci.</br>
@@ -146,12 +149,12 @@
             <div class="our-approach-sections reverse-section">
                 <img src="./images/table.png">
                 <div class="our-approach-step-box-reverse reverse-section white-font">
-                    4</br>
-                    step
+                    <p class="anton-font">4</br>
+                    step</p>
                 </div>
                 <div class="our-approach-step-text-reverse">
                         <div> 
-                            Step 4: Heading Here</br>
+                            <h4>Step 4: Heading Here</h4></br>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</br> 
                             Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.</br>
                             Donec quis nibh at felis congue commodo. Curabitur bibendum justo non orci.</br>
@@ -207,7 +210,8 @@
         <section class="facebook-analysis main-section">
             <h1 class="fb-analysis-header white-font">Get Your Free Facebook Analysis Now</h1>
             <p class="white-font">Enter Your Details Below </p>
-            <i class="fas fa-chevron-circle-down arrow fa-3x white-font"></i>
+           <i id="arrow" class="fas fa-chevron-circle-down arrow fa-3x white-font"></i>
+
             <div class="form-style">
                 <form>
                     <p>Sit down with our experts to receive a free customized marketing for your business

@@ -10,6 +10,7 @@ header {
     height: 43px;
     justify-content: flex-end;
 }
+
 .phone-number-flex-container {
     display: flex;
     flex-basis: 70%;
@@ -37,10 +38,7 @@ header {
     align-items: center;
     height: 130px;
 }
-nav a {
-    position: relative;
-    text-decoration: none;
-}
+
 nav a:visited {
     color:black;
 }
@@ -67,6 +65,7 @@ nav a:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+  
 .logo {
     display: flex;
     flex-basis: 400px;
@@ -84,24 +83,44 @@ nav {
     flex-basis: 50%;
     justify-content: center;
 }
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
 .navigation {
  display: flex;
- justify-content: space-around;
- flex-basis: 500px;
+ flex-basis: 520px;
  align-items: center;
 }
-.dot {
-    margin-bottom: 3px;
+
+.nav-first-row {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+.nav-second-row {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -5%;
+}
+ 
 .free-consultation-button-container {
     display: flex;
     flex-basis: 20%;
     align-items: center;
+    margin-right: 5%;
 }
 .free-consultation-button-container button {
     display: flex;
     background-color: rgb(222, 43, 36);
-    width: 170px;
+    flex-basis: 180px;
     height: 36px;
     border-radius: 3px;
     text-decoration: none;
@@ -111,4 +130,18 @@ nav {
 }
 .free-consultation-button-container button:hover {
     background-color: rgb(189, 19, 19);
+}
+ 
+
+ @media all and (max-width: 945px) {
+    .navigation {
+        max-width: 220px;
+     }
+     .nav-first-row {
+         justify-content: flex-start;
+     }
+     .nav-second-row {
+        justify-content: flex-start;
+        
+    }
 }
