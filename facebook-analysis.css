@@ -11,8 +11,14 @@
 .facebook-analysis p {
     text-align: center;
 }
+
 .arrow {
     text-align: center;
+}
+
+.toggle-button {
+    border-style: none;
+    background: none;
 }
 
 .form-style {
