@@ -3,6 +3,7 @@ header {
     flex-direction: column;
     height: 173px;
 }
+
 .contact-info-container {
     display: flex;
     flex-direction: row;
