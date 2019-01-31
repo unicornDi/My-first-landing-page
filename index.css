@@ -1,53 +1,23 @@
 body {
+    cursor: context-menu;
     margin: 0;
-    min-width: 730px;
-    cursor:context-menu;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
 .main-container {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;  
-}
-
-.about-us-headers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.small-rectangle {
-    width: 47px;
-    height: 4px;
-    background-color: rgb(66, 66, 66);
-    align-self: center;
-}
-
-.about-us-images-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 70px;
-}
-
-.facebook-marketing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.landing-pages-creation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.ads-management {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    text-align: center;
 }
