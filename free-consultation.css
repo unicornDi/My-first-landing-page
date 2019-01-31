@@ -6,10 +6,22 @@
     align-items: center;
     flex-direction: column;
 }
+
 .consultation-text {
     text-align: center;
+    text-transform: capitalize;
 }
-.consultation-button {
+
+.consultation-text__first-row {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.consultation-text__second-row {
+    text-transform: capitalize;
+}
+
+.consultation-button--yellow {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -20,13 +32,7 @@
     width: 330px;
     height: 69px;
 }
-.consultation-button:hover {
+
+.consultation-button--yellow:hover {
     background-color: rgb(243, 209, 115);
-}
-.about-us {
-    display: flex;
-    flex-direction: column;
-    height: 544px;
-    background-color: white;
-    
 }

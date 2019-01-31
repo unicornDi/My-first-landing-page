@@ -1,51 +1,34 @@
-header {
+.main-header {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    height: 173px;
 }
 
-.contact-info-container {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(240, 242, 244);
-    height: 43px;
-    justify-content: flex-end;
+.main-header__contact-info {
+    display: none;
 }
 
-.phone-number-flex-container {
+.main-header__logo {
     display: flex;
-    flex-basis: 70%;
-    justify-content: flex-end;
+    justify-content: center;
+    background-color: #f0f2f4;
 }
-.e-mail-flex-container {
+
+.main-header__logo-text {
     display: flex;
-    flex-basis: 30%;
-}
-.phone-number {
-    display: flex;
-    flex-basis: 110px;
-    justify-content: space-around;
-    align-items: center;   
-}
-.e-mail {
-    display: flex;
-    border-left: 1px solid rgb(226, 226, 226);
-    flex-basis: 200px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.navigation-container {
-    display: flex;
-    align-items: center;
-    height: 130px;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height: 0;
 }
 
 nav a:visited {
     color:black;
 }
+
 nav a:active {
     color: black;
 }
+
 nav a:before {
     content: "";
     position: absolute;
@@ -61,67 +44,18 @@ nav a:before {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
   }
+
   nav a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  
-.logo {
-    display: flex;
-    flex-basis: 400px;
-    justify-content: flex-end;
-    flex-basis: 30%
-}
-.business {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    line-height: 0;
-}
-nav {
-    display: flex;
-    flex-basis: 50%;
-    justify-content: center;
-}
-nav a {
-    position: relative;
-    text-decoration: none;
-}
 
-.navigation {
- display: flex;
- flex-basis: 520px;
- align-items: center;
-}
-
-.nav-first-row {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.nav-second-row {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-left: -5%;
-}
- 
-.free-consultation-button-container {
-    display: flex;
-    flex-basis: 20%;
-    align-items: center;
-    margin-right: 5%;
-}
-.free-consultation-button-container button {
-    display: flex;
+.consultation-button--red {
+    display: none;
+    align-self: center;
+    width: 170px;
     background-color: rgb(222, 43, 36);
-    flex-basis: 180px;
     height: 36px;
     border-radius: 3px;
     text-decoration: none;
@@ -129,20 +63,68 @@ nav a {
     justify-content: center;
     border: 1px solid rgb(222, 43, 36);
 }
-.free-consultation-button-container button:hover {
+
+.consultation-button--red:hover {
     background-color: rgb(189, 19, 19);
+    cursor: pointer;
 }
  
+@media (min-width: 768px) {
+    .main-header {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-header__logo {
+        background-color: white;
+        margin-left: 5%;
+    }
 
- @media all and (max-width: 945px) {
-    .navigation {
-        max-width: 220px;
-     }
-     .nav-first-row {
-         justify-content: flex-start;
-     }
-     .nav-second-row {
+    .main-header__contact-info {
+        display: flex;
+        order: -1;
+        background-color: rgb(240, 242, 244);
+        height: 43px;
+        width: 100%;
+        justify-content: flex-end; 
+    }
+
+    .contact-info__wrapper {
+        display: flex;
+        width: 40%;
+        margin-right: 10%;
+    }
+
+    .contact-info__item {
+        display: flex;
+        width: calc(100% / 2);
+        justify-content: space-evenly;
+    }
+    
+    .contact-info__item--long {
+        width: calc(100% / 1.2);
+    }
+    
+    .contact-info__item-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-header__logo {
         justify-content: flex-start;
-        
+    }
+
+    .consultation-button--red {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-info__wrapper {
+        width: 30%;
+    }
+
+    .consultation-button--red {
+        display: flex;
+        margin: auto;
     }
 }
